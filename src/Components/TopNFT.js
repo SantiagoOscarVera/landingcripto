@@ -5,58 +5,58 @@ import Heading from "./Heading";
 const TopNfts = [
   {
     id: "1",
-    name: "3D Abstract Hand",
-    price: "ETH 9.31",
-    image: "/images/1.png",
+    name: "Bitcoin (BTC)",
+    price: "Volátil",
+    image: "/images/btc10.jpg",
   },
   {
     id: "2",
-    name: "3D Abstract Hand",
-    price: "ETH 12.31",
-    image: "/images/2.png",
+    name: "Ether (ETH)",
+    price: "Volátil",
+    image: "/images/eth.jpg",
   },
   {
     id: "3",
-    name: "2D Abstract Lips",
-    price: "ETH 89.01",
-    image: "/images/3.png",
+    name: "Tether (USDT)",
+    price: "Stablecoin",
+    image: "/images/usdt.jpg",
   },
   {
     id: "4",
-    name: "3D Abstract Mouth",
-    price: "ETH 0.41",
-    image: "/images/4.png",
+    name: "Binance USD (BUSD)",
+    price: "Stablecoin",
+    image: "/images/busd.jpg",
   },
   {
     id: "5",
-    name: "3D Abstract Hand",
-    price: "ETH 9.31",
-    image: "/images/5.jpg",
+    name: "Algorand (ALGO)",
+    price:  "Volátil",
+    image: "/images/algo.jpg",
   },
   {
     id: "6",
-    name: "3D Abstract Hand",
-    price: "ETH 12.31",
-    image: "/images/6.jpg",
+    name: "Dogecoin (DOGE)",
+    price:  "Volátil",
+    image: "/images/doge.jpg",
   },
   {
     id: "7",
-    name: "2D Abstract Lips",
-    price: "ETH 89.01",
-    image: "/images/7.jpg",
+    name: "Decentraland (MANA)",
+    price:  "Volátil",
+    image: "/images/mana.jpg",
   },
   {
     id: "8",
-    name: "3D Abstract Mouth",
-    price: "ETH 0.41",
-    image: "/images/8.jpg",
+    name: "Cardano (ADA)",
+    price:  "Volátil",
+    image: "/images/cardano.jpg",
   },
 ];
 
 function TopNFT() {
   return (
     <div className="my-12">
-      <Heading title={"TOP NFTs"} />
+      <Heading title={"TOP CRIPTO´S"} />
       <OwlCarousel
         className="owl-theme"
         loop
@@ -95,8 +95,8 @@ function TopNFT() {
                 className="w-full h-64 object-cover"
               />
               <div className="top-hidden absolute transitione top-1 bottom-1 left-1 right-1 bg-overlay flex-colo">
-                <h2 className="font-semibold text-whites">{t.name}</h2>
-                <div className="mt-2 text-lg font-black tracking-wider text-whites">
+                <h2 className="mt-2 text-lg font-black tracking-wider text-whites">{t.name}</h2>
+                <div className= "font-semibold text-whites">
                   {t.price}
                 </div>
               </div>

@@ -12,7 +12,7 @@ function App() {
           <Header />
           <Hero />
           <TopNFT />
-          <Subcribe />
+          {/* <Subcribe /> */}
         </div>
       </div>
     </>
